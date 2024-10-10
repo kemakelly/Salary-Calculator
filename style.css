@@ -94,4 +94,7 @@ button{
     .input-group {
         row-gap: 0.4rem; 
     }
+     label{
+        font-size: .5rem;
+    }
 }
