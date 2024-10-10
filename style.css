@@ -71,3 +71,27 @@ button{
     justify-content: start;
     align-items: start;
 }
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%; 
+        padding: 1.5rem; 
+        margin: 2rem auto; 
+    }
+
+    .title h1 {
+        font-size: 1.4rem; /* Slightly smaller font size for mobile */
+    }
+
+    input, button {
+        padding: 0.8rem;
+    }
+
+    form {
+        row-gap: 0.8rem; 
+    }
+
+    .input-group {
+        row-gap: 0.4rem; 
+    }
+}
